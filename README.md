@@ -73,5 +73,4 @@ python tab_optimizer.py
 
 ![Before](https://imgur.com/7jDdPSg)
 
-After:
 ![After](https://imgur.com/re4BJ92)
