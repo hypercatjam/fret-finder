@@ -16,6 +16,7 @@ This is especially useful for transposing tabs that have unnecessary vertical st
 ## Warning
 
 - This is just a prototype I'm messing around with for fun. I've tested it very miniamally with mixed, but acceptable results with editing. I aim to improve it. Would be cool to someday make a plugin for TuxGuitar with the logic.
+- Currently only works with E Standard.
 
 ---
 
