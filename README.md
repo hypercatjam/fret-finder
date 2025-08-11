@@ -8,12 +8,20 @@ This is especially useful for transposing tabs that have unnecessary vertical st
 ## Features
 
 - Analyzes GuitarPro files (.gp5) to find the best string and fret positions.  
-- Uses the highest fret per beat as a positional anchor.  
-- Transposes notes horizontally to minimize awkward stretches.  
-- Works with the [pyguitarpro](https://github.com/Thiht/py-guitarpro) library.  
+- Uses the highest fret per beat as an anchor.  
+- Transposes notes horizontally to minimize awkward stretches or slides.  
+- Works using the [pyguitarpro](https://github.com/Thiht/py-guitarpro) library.  
 - Saves optimized tabs to new GuitarPro files.
 
+## Warning
+
+- This is just a prototype I'm messing aroun with for fun. I've only tested it with a couple bars with mixed, but acceptable results with editing. I am to improve it.
+
 ---
+
+## Prerequisites
+1. [Python] (https://www.python.org/downloads/release/python-3136/)
+2. [pyguitarpro](https://github.com/Thiht/py-guitarpro)
 
 ## Installation
 
@@ -23,12 +31,33 @@ This is especially useful for transposing tabs that have unnecessary vertical st
     pip install pyguitarpro
     ```
 
-2. Clone this repository:
+2. Download this repository:
 
     ```bash
     git clone https://github.com/yourusername/fret-finder.git
     cd fret-finder
     ```
+
+    Or [click here](https://github.com/hypercatjam/fret-finder/archive/refs/heads/main.zip).
+   
+4. Set up your folder:
+
+   Place your .gp5 file (must be gp5 or older!) into the same folder as the python script. Rename it to "input.gp5"
+
+   If you didn't clone the repository, CD to the folder:
+
+   ```bash
+   cd C:\Documents\fret-finder
+   ```
+
+6. Run the script:
+
+    ```bash
+    python tab_optimizer.py
+
+7. Check results:
+
+   Check the fret-finder folder for the output file.
 
 ---
 
