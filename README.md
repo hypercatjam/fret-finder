@@ -34,7 +34,7 @@ This is especially useful for transposing tabs that have unnecessary vertical st
 2. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/fret-finder.git
+    git clone https://github.com/hypercatjam/fret-finder.git
     cd fret-finder
     ```
 
