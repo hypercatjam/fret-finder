@@ -1,6 +1,6 @@
 # fret-finder
 
-**fret-finder** is a Python tool designed to optimize guitar tabs by transposing notes to more ergonomic fret and string positions. It uses the highest fret in each beat as an anchor and shifts the other notes accordingly, aiming for easier, more natural fingerings.
+**fret-finder** is a Python tool designed to optimize Guitar Pro tabs by transposing notes to more ergonomic fret and string positions. It uses the highest fret in each beat as an anchor and shifts the other notes accordingly, aiming for easier, more natural fingerings. It's a feature I always wished GP had internally. Would be great to just right click highlighted notes and select "Optimize".
 
 This is especially useful for transposing tabs that have unnecessary vertical stretches as opposed to skips, making them easier to play and cleaner to read.
 ---
