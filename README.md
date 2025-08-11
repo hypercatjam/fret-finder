@@ -20,7 +20,7 @@ This is especially useful for transposing tabs that have unnecessary vertical st
 ---
 
 ## Prerequisites
-1. [Python] (https://www.python.org/downloads/release/python-3136/)
+1. [Python](https://www.python.org/downloads/release/python-3136/)
 2. [pyguitarpro](https://github.com/Thiht/py-guitarpro)
 
 ## Installation
@@ -42,7 +42,7 @@ This is especially useful for transposing tabs that have unnecessary vertical st
    
 4. Set up your folder:
 
-   Place your .gp5 file (must be gp5 or older!) into the same folder as the python script. Rename it to "input.gp5"
+   Place your .gp5 file (must be gp5 or older!) into the same folder as the python script. **You must rename it to "input.gp5".**
 
    If you didn't clone the repository, CD to the folder:
 
@@ -67,3 +67,11 @@ Run the optimizer script:
 
 ```bash
 python tab_optimizer.py
+```
+
+## Examples
+
+![Before](https://imgur.com/7jDdPSg)
+
+After:
+![After](https://imgur.com/re4BJ92)
