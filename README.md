@@ -2,7 +2,6 @@
 
 **fret-finder** is a Python tool designed to optimize Guitar Pro tabs by transposing notes to more ergonomic fret and string positions. It uses the highest fret in each beat as an anchor and shifts the other notes accordingly, aiming for easier, more natural fingerings. It's a feature I always wished GP had internally so I decided to try to make it.
 
-This is especially useful for transposing tabs that have unnecessary vertical stretches as opposed to skips, making them easier to play and cleaner to read.
 ---
 
 ## Features
@@ -39,17 +38,16 @@ This is especially useful for transposing tabs that have unnecessary vertical st
     cd fret-finder
     ```
 
-    Or [click here to download](https://github.com/hypercatjam/fret-finder/archive/refs/heads/main.zip).
+    Or [click here to download](https://github.com/hypercatjam/fret-finder/archive/refs/heads/main.zip) and
+
+   ```bash
+   cd C:\Documents\fret-finder
+   ```
    
 4. Set up your folder:
 
    Place your .gp5 file (must be gp5 or older) into the same folder as the python script. **You must rename it to "input.gp5".**
 
-   If you didn't clone the repository, CD to the folder:
-
-   ```bash
-   cd C:\Documents\fret-finder
-   ```
 
 6. Run the script:
 
